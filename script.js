@@ -7,3 +7,5 @@ burgerToggle.addEventListener('click', () => {
     header.classList.contains('fixed') ? header.classList.remove('fixed') : header.classList.add('fixed')
     burgerNav.classList.contains('open') ? burgerNav.classList.remove('open') : burgerNav.classList.add('open')
 })
+
+new WOW().init();
